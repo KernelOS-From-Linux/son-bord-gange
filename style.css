@@ -1,0 +1,242 @@
+HTML CSSResult Skip Results Iframe
+EDIT ON
+/*Reset CSS*/
+
+html{
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+    font-family: Arial;
+    font-size: 18px;
+}
+
+body {
+    background-color: #141414;
+    color: white;
+    font-family: Arial;
+    font-size: 40;
+    text-align: center;
+    margin: auto;
+}
+
+nav{
+    position: center;
+	margin: 0px auto;
+    border: 1px solid white;
+    background: #00a2e8;
+    width: 80%;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li:hover {
+    background-color: #ed1c24;
+    z-index: -1;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+nav ul li{
+    float: left;
+    width: 24.86%;/*100% divisé par le nombre d'éléments de menu*/
+    text-align: center;/*Centre le texte dans les éléments de menu*/
+    bottom: center;
+    margin: 0;
+    padding: 0;
+}
+
+nav a{
+    display: center;
+    display: block; /*Toute la surface sera cliquable*/
+    text-decoration: none;
+    color: white;
+    border-bottom: 0px solid transparent;/*Evite le décalage des éléments sous le menu à cause de la bordure en :hover*/
+    border-style: 5px white;
+    padding: 15px 0px;/*Agrandit le menu et espace la bordure du texte*/
+}
+
+.navlink:last-child {
+    border-left: none;
+    border-right: none;
+}
+
+.conteneur{
+    margin: 0px 0px;
+    height: 1500px;
+} 
+
+nav #li-deb{
+    border-right: 1px solid white;
+}
+
+nav #li-mid{
+    border-right: 1px solid white;
+    border-left: 1px solid white;
+}
+
+nav #li-fin{
+    border-left: 1px solid white;
+}
+
+.submenu{
+    display: none;
+}
+
+nav ul::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+h6 a{
+    color: white;
+    text-decoration: none;
+    font-family: Arial;
+    font-size: 15px;
+    position: center;
+	margin: 0px auto;
+    border: 1px solid white;
+    background: #ed1c24;
+    width: 90%;
+    border-radius: 10px;
+    padding: 0;
+    margin: 0;
+    display: center;
+    display: block; /*Toute la surface sera cliquable*/
+    text-decoration: none;
+    color: white;
+    border-style: 5px white;
+    padding: 11px 0px;/*Agrandit le menu et espace la bordure du texte*/
+}
+
+h6 a:hover {
+    background-color: #00a2e8;
+    z-index: -1;
+    border-radius: 10px;
+}
+
+/*
+h6 {
+    color: white;
+    text-decoration: none;
+    font-family: Arial;
+    font-size: 20;
+    position: center;
+	margin: 0px auto;
+    border: 1px solid white;
+    background: #ee0000;
+    width: 15%;
+    border-radius: 10px;
+    padding: 0;
+    margin: 0;
+    display: center;
+    display: block; *Toute la surface sera cliquable*
+    text-decoration: none;
+    color: white;
+    border-bottom: 0px solid transparent; *Evite le décalage des éléments sous le menu à cause de la bordure en :hover*
+    border-style: 5px white;
+    padding: 15px 0px;*Agrandit le menu et espace la bordure du texte*
+}
+
+h6:hover {
+    background-color: #ffb516;
+    z-index: -1;
+    border-radius: 10px;
+}
+*/
+
+h4{
+    color: white;
+    text-decoration: none;
+    font-family: Arial;
+    font-size: 25;
+}
+
+/* Monospaced elements */
+kbd, pre, .command {
+    font-family:monospace;
+  }
+  .systemitem {
+    font-style:italic;
+  }
+  pre {
+    background-color:#242424;
+    color:#ffffff;
+    margin:1em;
+    padding:.2em .5em .5em 2em;
+    border-radius:8px;
+    position:relative;
+    box-sizing: border-box;
+    overflow:auto;
+    font-weight:bold;
+    display: inline-block;
+  }
+
+  ::selection {
+    color: white;
+    background: #00a2e8;
+  }
+  /* width */
+  ::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #141414; 
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: linear-gradient(#00a2e8, #ffffff, #ed1c24);
+    border-radius: 7px;
+    border: 1px solid white;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: linear-gradient(#00a2e8, #ffffff, #ed1c24);
+    border-radius: 7px;
+    border: 1px solid white;
+  }
+
+.container {
+    display: flex;
+}
+
+.column1 {
+    flex: 1;
+    padding: 0px;
+}
+
+.column2 {
+    flex: 1;
+    padding: 0px;
+}
+
+.column3 {
+    flex: 1;
+    padding: 0px;
+}
+
+.column4 {
+    flex: 1;
+    padding: 0px;
+}
+
+.column5 {
+    flex: 1;
+    padding: 0px;
+}
