@@ -23,81 +23,33 @@ body {
     margin: auto;
 }
 
-nav{
-    position: center;
-	margin: 0px auto;
-    border: 1px solid white;
-    background: #00a2e8;
-    width: 80%;
-    border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 10px;
-    padding: 0;
-    margin: 0;
+.container {
+    display: flex;
 }
 
-nav ul{
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
+.column1 {
+    flex: 1;
+    padding: 0px;
 }
 
-nav ul li:hover {
-    background-color: #ed1c24;
-    z-index: -1;
-    border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 10px;
+.column2 {
+    flex: 1;
+    padding: 0px;
 }
 
-nav ul li{
-    float: left;
-    width: 24.86%;/*100% divisé par le nombre d'éléments de menu*/
-    text-align: center;/*Centre le texte dans les éléments de menu*/
-    bottom: center;
-    margin: 0;
-    padding: 0;
+.column3 {
+    flex: 1;
+    padding: 0px;
 }
 
-nav a{
-    display: center;
-    display: block; /*Toute la surface sera cliquable*/
-    text-decoration: none;
-    color: white;
-    border-bottom: 0px solid transparent;/*Evite le décalage des éléments sous le menu à cause de la bordure en :hover*/
-    border-style: 5px white;
-    padding: 15px 0px;/*Agrandit le menu et espace la bordure du texte*/
+.column4 {
+    flex: 1;
+    padding: 0px;
 }
 
-.navlink:last-child {
-    border-left: none;
-    border-right: none;
-}
-
-.conteneur{
-    margin: 0px 0px;
-    height: 1500px;
-} 
-
-nav #li-deb{
-    border-right: 1px solid white;
-}
-
-nav #li-mid{
-    border-right: 1px solid white;
-    border-left: 1px solid white;
-}
-
-nav #li-fin{
-    border-left: 1px solid white;
-}
-
-.submenu{
-    display: none;
-}
-
-nav ul::after{
-    content: "";
-    display: block;
-    clear: both;
+.column5 {
+    flex: 1;
+    padding: 0px;
 }
 
 h6 a{
@@ -118,7 +70,7 @@ h6 a{
     text-decoration: none;
     color: white;
     border-style: 5px white;
-    padding: 11px 0px;/*Agrandit le menu et espace la bordure du texte*/
+    padding: 14px 0px;/*Agrandit le menu et espace la bordure du texte*/
 }
 
 h6 a:hover {
@@ -127,41 +79,11 @@ h6 a:hover {
     border-radius: 10px;
 }
 
-/*
-h6 {
+h2{
     color: white;
     text-decoration: none;
     font-family: Arial;
-    font-size: 20;
-    position: center;
-	margin: 0px auto;
-    border: 1px solid white;
-    background: #ee0000;
-    width: 15%;
-    border-radius: 10px;
-    padding: 0;
-    margin: 0;
-    display: center;
-    display: block; *Toute la surface sera cliquable*
-    text-decoration: none;
-    color: white;
-    border-bottom: 0px solid transparent; *Evite le décalage des éléments sous le menu à cause de la bordure en :hover*
-    border-style: 5px white;
-    padding: 15px 0px;*Agrandit le menu et espace la bordure du texte*
-}
-
-h6:hover {
-    background-color: #ffb516;
-    z-index: -1;
-    border-radius: 10px;
-}
-*/
-
-h4{
-    color: white;
-    text-decoration: none;
-    font-family: Arial;
-    font-size: 25;
+    font-size: 17px;
 }
 
 /* Monospaced elements */
@@ -211,32 +133,3 @@ kbd, pre, .command {
     border-radius: 7px;
     border: 1px solid white;
   }
-
-.container {
-    display: flex;
-}
-
-.column1 {
-    flex: 1;
-    padding: 0px;
-}
-
-.column2 {
-    flex: 1;
-    padding: 0px;
-}
-
-.column3 {
-    flex: 1;
-    padding: 0px;
-}
-
-.column4 {
-    flex: 1;
-    padding: 0px;
-}
-
-.column5 {
-    flex: 1;
-    padding: 0px;
-}
