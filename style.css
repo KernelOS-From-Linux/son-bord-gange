@@ -58,9 +58,9 @@ h6 a{
     font-family: Arial;
     font-size: 15px;
     position: center;
-	margin: 0px auto;
+	  margin: 0px auto;
     border: 1px solid white;
-    background: #ed1c24;
+    background: #141414;
     width: 90%;
     border-radius: 10px;
     padding: 0;
@@ -74,7 +74,8 @@ h6 a{
 }
 
 h6 a:hover {
-    background-color: #00a2e8;
+    color: #141414;
+    background-color: #FFFFFF;
     z-index: -1;
     border-radius: 10px;
 }
@@ -108,7 +109,7 @@ kbd, pre, .command {
 
   ::selection {
     color: white;
-    background: #00a2e8;
+    background: #69696967;
   }
   /* width */
   ::-webkit-scrollbar {
@@ -122,14 +123,14 @@ kbd, pre, .command {
   
   /* Handle */
   ::-webkit-scrollbar-thumb {
-    background: linear-gradient(#00a2e8, #ffffff, #ed1c24);
+    background: linear-gradient(#141414, #ffffff);
     border-radius: 7px;
     border: 1px solid white;
   }
   
   /* Handle on hover */
   ::-webkit-scrollbar-thumb:hover {
-    background: linear-gradient(#00a2e8, #ffffff, #ed1c24);
+    background: linear-gradient(#ffffff, #141414);
     border-radius: 7px;
     border: 1px solid white;
   }
